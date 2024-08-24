@@ -67,31 +67,32 @@ function renderNavBar(navbarId, exampleUri) {
     {
       uri: 'webcam_age_and_gender_recognition',
       name: 'Webcam Age and Gender Recognition'
-    },
-    {
-      uri: 'bbt_face_landmark_detection',
-      name: 'BBT Face Landmark Detection'
-    },
-    {
-      uri: 'bbt_face_similarity',
-      name: 'BBT Face Similarity'
-    },
-    {
-      uri: 'bbt_face_matching',
-      name: 'BBT Face Matching'
-    },
-    {
-      uri: 'bbt_face_recognition',
-      name: 'BBT Face Recognition'
-    },
-    {
-      uri: 'batch_face_landmarks',
-      name: 'Batch Face Landmark Detection'
-    },
-    {
-      uri: 'batch_face_recognition',
-      name: 'Batch Face Recognition'
     }
+    //,
+    // {
+    //   uri: 'bbt_face_landmark_detection',
+    //   name: 'BBT Face Landmark Detection'
+    // },
+    // {
+    //   uri: 'bbt_face_similarity',
+    //   name: 'BBT Face Similarity'
+    // },
+    // {
+    //   uri: 'bbt_face_matching',
+    //   name: 'BBT Face Matching'
+    // },
+    // {
+    //   uri: 'bbt_face_recognition',
+    //   name: 'BBT Face Recognition'
+    // },
+    // {
+    //   uri: 'batch_face_landmarks',
+    //   name: 'Batch Face Landmark Detection'
+    // },
+    // {
+    //   uri: 'batch_face_recognition',
+    //   name: 'Batch Face Recognition'
+    // }
   ]
 
   const navbar = $(navbarId).get(0)
@@ -121,7 +122,7 @@ function renderNavBar(navbarId, exampleUri) {
   githubLink.id = 'github-link'
   // githubLink.href = 'https://github.com/justadudewhohacks/face-api.js'
   const h5 = document.createElement('h5')
-  h5.innerHTML = 'Lamo - AI'
+  h5.innerHTML = 'Motion Mirror'
   githubLink.appendChild(h5)
   const githubLinkIcon = document.createElement('img')
   // githubLinkIcon.src = 'github_link_icon.png'
